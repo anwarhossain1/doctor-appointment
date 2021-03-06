@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "antd/dist/antd.css";
-import { Layout, Descriptions, Calendar, Select } from "antd";
+import { Layout, Descriptions, Calendar, Select , Modal } from "antd";
 import Slot from './slot';
 
 export default class doctorinfo extends Component {
@@ -31,7 +31,7 @@ export default class doctorinfo extends Component {
           <h1>Available Date</h1>
           <Calendar onSelect={this.hh} />
         </Content>
-        {this.state.viewSlot?<Slot props={this.state}/> : ""}
+        {this.state.viewSlot?<Slot ss={this.state.viewSlot}/> : ""}
       </div>
     );
   }
