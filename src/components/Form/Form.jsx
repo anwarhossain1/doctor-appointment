@@ -25,7 +25,9 @@ const onFinish=(value) =>{
 
 const Formm = () => {
   return (
-    <Form {...layout} onFinish={onFinish} validateMessages={validateMessages} >
+      <>
+      <h1>Details About You</h1>
+    <Form style={{marginRight:"500px"}} {...layout} onFinish={onFinish} validateMessages={validateMessages} >
       <Form.Item 
       name={['user', 'name']}
       label="Name"
@@ -75,7 +77,9 @@ const Formm = () => {
       </Form.Item>
       
     </Form>
+    </>
   );
-};
+  
+}
 
 export default Formm;

@@ -3,7 +3,8 @@ import "antd/dist/antd.css";
 import { Layout, Descriptions, Calendar, Select , Modal } from "antd";
 import Slot from './slot';
 
-export default class doctorinfo extends Component {
+
+class Doctorinfo extends Component {
  constructor(props){
      super(props);
      this.state = {
@@ -36,3 +37,4 @@ export default class doctorinfo extends Component {
     );
   }
 }
+export default Doctorinfo;
