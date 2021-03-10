@@ -12,6 +12,7 @@ function Home() {
 
   const onClickHandler = () => {
     console.log("okay");
+    
     // <Doctorinfo props={Data}/>
   };
 
@@ -38,13 +39,13 @@ function Home() {
                   cover={
                     <img
                       alt="example"
-                      src="https://progod428.weebly.com/uploads/1/2/3/8/123809004/884238936.jpg"
+                      src="https://image.freepik.com/free-vector/doctor-character-background_1270-84.jpg"
                     />
                   }
                 >
                   <Meta title={item.name} description={item.org} />
 
-                  <Link to='/doctorinfo' onClick={onClickHandler}>
+                  <Link to='/doctorinfo' onClick={onClickHandler} details={Data}>
                     
                   <Button
                       type="primary"
