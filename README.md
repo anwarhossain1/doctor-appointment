@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+This is a react based web application for doctor appointment booking.</br>
+<a href="https://appointus.netlify.app/" target="__blank">Live Website</a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</br>
 
-## Available Scripts
+ I have named this web app <span>AppointUS</span>. Materials added into this project are,
 
-In the project directory, you can run:
+<ul>
+<li>When a user lands on this application the first page will show a list of doctors based
+on a JSON file where all the doctors list have been added.</li>
+<li>Upon selecting a doctor from the list the user will be forwarded to a second page
+where they will be presented with a calendar by which they can view doctor's available time slots.</li>
+<li>On clicking in a slot the user will be prompted for a form to give some booking
+information like name, phone number, visit reason, etc.</li>
+<li></li>
+<ul>
 
-### `npm start`
+Technologies used in this project have been given below:-
+<ul>
+<li>ReactJS as a framework/library</li>
+<li>Redux for managing states</li>
+<li>Ant design for designing</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I have a plan to add also some other features like:- 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<ul>
+<li>When user will be forwarded to a second page from the first page, they will be presented with a calendar where only the dates match with the
+doctor's availability will be active. For the first doctor like "Dr. John Doe" only Sunday and
+Wednesday in the calendar will be active.</li>
+<li>On clicking an active date the doctor will be given a list of slots. Suppose if the user
+clicks on any Sunday for "Dr. John Doe" he will be presented with slots from "10:00
+AM" to "06:00 PM" with 15 minutes duration like "10:00 AM", "10:15 AM", "10:30 AM"
+and so on based on his availability in that JSON file.</li>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</ul>
