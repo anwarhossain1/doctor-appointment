@@ -8,6 +8,7 @@ const userSlice = createSlice({
     formFill: false,
     viewResult:false,
     viewForm:false,
+    count:-1,
 
   },
   reducers: {
@@ -25,15 +26,20 @@ const userSlice = createSlice({
       },
     setViewForm: (state,action) =>{
         state.viewForm = action.payload;
-    } 
+    },
+    setCount: (state,action) =>{
+      state.count = state.count+1;
+  },
+
   },
 });
 
-export const { setViewSlots, setViewDate, setFormFill, setViewResult, setViewForm } = userSlice.actions;
+export const { setViewSlots, setViewDate, setFormFill, setViewResult, setViewForm, setCount } = userSlice.actions;
 
 export const selectViewSlots = (state) => state.user.viewSlots;
 export const selectViewDate = (state) => state.user.viewDate;
 export const selectFormFill = (state) => state.user.formFill;
 export const selectViewResult = (state) => state.user.viewResult;
 export const selectViewForm = (state) => state.user.viewForm;
+export const selectCount = (state) => state.user.count;
 export default userSlice.reducer;

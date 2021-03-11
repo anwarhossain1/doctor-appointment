@@ -4,11 +4,13 @@ import "antd/dist/antd.css";
 import Data from "../../data/data.json";
 import Doctorinfo from "../DoctorInfo/Doctorinfo";
 import { Link } from "react-router-dom";
-
+import { useDispatch } from 'react-redux';
+import { setCount } from "../../features/userSlice";
 function Home() {
   const [title, setTitle] = useState([]);
   const { Header, Content, Footer } = Layout;
   const { Meta } = Card;
+  const dispatch = useDispatch();
 
   const onClickHandler = () => {
     console.log("okay");
@@ -16,9 +18,18 @@ function Home() {
     // <Doctorinfo props={Data}/>
   };
 
+  const countHandler = () =>{
+    // dispatch(setCount());
+
+  }
+
+
   return (
     <div>
       <Layout>
+        <Row>
+          <Col>
+         
         <Content style={{ padding: "0 50px" }}>
           <List
             grid={{
@@ -35,7 +46,7 @@ function Home() {
                 <Card
                   key={item.id}
                   hoverable
-                  style={{ width: 500, margin: "50px" }}
+                  style={{ maxWidth: 500, maxMargin: "50px" }}
                   cover={
                     <img
                       alt="example"
@@ -50,6 +61,7 @@ function Home() {
                   <Button
                       type="primary"
                       style={{ position: "center" }}
+                      onClick={countHandler}
                       
                     >
                       Set Appointment
@@ -84,6 +96,8 @@ function Home() {
             )}
           />
         </Content>
+        </Col>
+        </Row>
       </Layout>
     </div>
   );

@@ -72,8 +72,10 @@ const Slot = () => {
           style={{ width: 200 }}
           onChange={handleChange}
         >
-          <Option value="jack">Jack (100)</Option>
-          <Option value="lucy">Lucy (101)</Option>
+          <Option value="jack">10.00 AM-10.15 AM</Option>
+          <Option value="lucy">10.15 AM-10.30 AM</Option>
+          <Option value="lucy">10.30 AM-10.45 AM</Option>
+          <Option value="lucy">10.45 AM-11.00 AM</Option>
         </Select>
         
       </Modal>

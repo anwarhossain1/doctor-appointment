@@ -6,9 +6,9 @@ const Footer = () => {
   const { Footer } = Layout;
   return (
     <div>
-      <Layout>
-        <Footer>All rights reserved</Footer>
-      </Layout>
+     
+        <Footer style={{ position: "sticky", bottom: "0" }}>AppointUS @2021 created By AH</Footer>
+     
     </div>
   );
 };
