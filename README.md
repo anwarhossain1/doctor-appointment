@@ -1,4 +1,4 @@
-<h2>This is a react based web application for doctor appointment booking.</h2></br>
+<h2>This is a fully responsive react based web application for doctor appointment booking.</h2></br>
 <h1><a href="https://appointus.netlify.app/" target="_blank">Live Website</a></h1>
 
 </br>
@@ -18,7 +18,7 @@ information like name, phone number, visit reason, etc.</li>
 <ul>
 <li>ReactJS as a framework/library</li>
 <li>Redux for managing states</li>
-<li>Ant design for designing</li>
+<li>Ant design for designing and Responsiveness</li>
 </ul>
 
 <h2>I have a plan to add also some other features like:- </h2>
