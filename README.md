@@ -1,5 +1,5 @@
 This is a react based web application for doctor appointment booking.</br>
-<a href="https://appointus.netlify.app/" target="__blank">Live Website</a>
+<h1><a href="https://appointus.netlify.app/" target="__blank">Live Website</a></h1>
 
 </br>
 
@@ -15,7 +15,7 @@ information like name, phone number, visit reason, etc.</li>
 <li></li>
 <ul>
 
-Technologies used in this project have been given below:-
+<h2>Technologies used in this project have been given below:-</h2>
 <ul>
 <li>ReactJS as a framework/library</li>
 <li>Redux for managing states</li>
