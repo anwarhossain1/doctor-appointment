@@ -1,9 +1,9 @@
-This is a react based web application for doctor appointment booking.</br>
+<h2>This is a react based web application for doctor appointment booking.</h2></br>
 <h1><a href="https://appointus.netlify.app/" target="__blank">Live Website</a></h1>
 
 </br>
 
- I have named this web app <span>AppointUS</span>. Materials added into this project are,
+ <h2>I have named this web app <span>AppointUS</span>. Features added into this project are:-</h2>
 
 <ul>
 <li>When a user lands on this application the first page will show a list of doctors based
@@ -12,7 +12,6 @@ on a JSON file where all the doctors list have been added.</li>
 where they will be presented with a calendar by which they can view doctor's available time slots.</li>
 <li>On clicking in a slot the user will be prompted for a form to give some booking
 information like name, phone number, visit reason, etc.</li>
-<li></li>
 <ul>
 
 <h2>Technologies used in this project have been given below:-</h2>
@@ -22,7 +21,7 @@ information like name, phone number, visit reason, etc.</li>
 <li>Ant design for designing</li>
 </ul>
 
-I have a plan to add also some other features like:- 
+<h2>I have a plan to add also some other features like:- </h2>
 
 <ul>
 <li>When user will be forwarded to a second page from the first page, they will be presented with a calendar where only the dates match with the
