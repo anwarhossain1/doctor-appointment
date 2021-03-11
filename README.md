@@ -1,5 +1,5 @@
 <h2>This is a react based web application for doctor appointment booking.</h2></br>
-<h1><a href="https://appointus.netlify.app/" target="__blank">Live Website</a></h1>
+<h1><a href="https://appointus.netlify.app/" target="_blank">Live Website</a></h1>
 
 </br>
 
